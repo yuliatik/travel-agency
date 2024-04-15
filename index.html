@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href="data:,">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital@1&family=Dancing+Script:wght@500;700&family=Montserrat:ital,wght@0,100;0,400;0,500;0,600;1,100;1,600;1,800&family=Open+Sans:ital,wght@0,800;1,600;1,700&family=Roboto+Mono:ital,wght@1,300&family=Roboto:ital,wght@0,100;0,400;0,500;0,900;1,400;1,500;1,700&family=Satisfy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<audio id="myAudio" src="song.mp3.mp3" loop="loop" autoplay="allowed"></audio>
+  <button id="myButton"><img src="icons8-play-button-48.png" alt="play button"></button>
+<div class="heading">
+    <h1>Travel Agency, opening soon!!!</h1>    
+  </div>
+
+  <div class="containerTwo">
+    <div class="travel">
+      <div class="block">
+      <h5>DAYS</h5>
+      <h5 class="days"></h5>
+      </div>
+    </div>
+
+    <div class="travel">
+      <div class="block">
+      <h5>HOURS</h5>
+      <h5 class="hours"></h5>
+      </div>
+    </div>
+
+    <div class="travel">
+      <div class="block">
+      <h5>MINUTES</h5>
+      <h5 class="minutes"></h5>
+      </div>
+    </div>
+
+    <div class="travel">
+      <div class="block">
+      <h5>SECONDS</h5>
+      <h5 class="seconds"></h5>
+      </div>
+    </div>
+
+  </div>
+
+<div class="container">
+
+    <div class="item one selected">
+        <h4>Spain</h4>
+        <p class="price">from 700$</p>
+    </div>
+
+    <div class="item two selected">
+        <h4 class="par">Portugal</h4>
+        <p class="price">from 850$</p>
+    </div>
+
+    <div class="item three selected">
+        <h4 class="par">Greece</h4>
+        <p class="price">from 950$</p>
+    </div>
+
+    <div class="item four selected">
+        <h4 class="par">Chroatia</h4>
+        <p class="price">from 1200$</p>
+    </div>
+
+    <div class="item five selected">
+        <h4 class="par">Gran Canaria</h4>
+        <p class="price">from 1000$</p>
+    </div>
+</div>
+<div class="message">
+  <h3>Send a message</h3>
+</div>   
+<form
+  action="https://formspree.io/f/xqkowlyb"
+  method="POST">
+
+  <input type = "hidden" name="_language" value="en">
+
+<div class="header"> 
+  <div>
+  <label>
+    Your email:
+    <input type="email" class="text-input" name="email" placeholder="your E-mail" required="">
+  </label>
+</div>
+<div>
+      <label>
+    Your message:
+    <textarea name="message" class="text-input" placeholder="type your message" required=""></textarea>
+  </label>
+</div>
+<br>
+  <!-- your other form fields go here -->
+  <div>
+  <button class="btn" type="submit">Send</button>
+</div>
+</div>
+</form> 
+
+    <script src="script.js"></script>
+</body>
+</html>

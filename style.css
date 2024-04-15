@@ -1,0 +1,152 @@
+body{
+    background-color:#ADE4DB;
+/* #FFBFA9; */
+}
+.one{
+    background-image: url('mallorca.jpg');
+}
+
+.two{
+    background-image: url('potrugal.jpg');
+}
+
+.three{
+    background-image: url('greece.jpg');
+}
+
+.four{
+    background-image:url('chroatia.jpg');
+}
+
+.five{
+    background-image: url('tenerife.jpg');
+}
+
+.message{ 
+    display: flex;
+    justify-content: center;
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    display: flex    
+}
+
+.item{
+    height:90vh;
+    background-size: cover;
+    background-position: center;
+    flex:1;
+    margin:5px;
+    position:relative;
+}
+
+h1, h3, .message{
+    font-family: 'Dancing Script', cursive; 
+    font-size:50px;
+    color: #002B5B;
+}
+
+p{
+    font-family: 'Dancing Script', cursive;  
+    font-size: 30px;
+    color: #002B5B;
+}
+
+h4{
+    position: absolute;
+    top:15px;
+    left:40px;
+    background-color:#EDC6B1;
+    color:#0A4D68;
+    font-family: 'Dancing Script', cursive;
+    }
+
+    .price{
+    position:absolute;
+    top:100px;
+    left:40px;
+    background-color:#EDC6B1;      
+
+    }
+
+.selected{
+    flex:4;
+}
+
+.selected h4{
+    font-size:40px;
+    transition: all 1s ease-in;
+}
+
+.selected .price{
+    font-size:20px;
+    transition: all 1s ease-in;
+}
+
+h4, .price{
+    font-size:0;
+    }
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn{
+    background-color: #00FFCA;
+    border: none;
+    font-family: 'Dancing Script', cursive;
+    padding:10px;
+    font-size:30px;
+    width:100vh;
+    border-radius:20px;
+}
+
+.text-input{
+    background-color:#ADE4DB;
+    padding: 12px 20px;
+    border-color: #002B5B;
+    border: none;
+}
+
+
+label{
+    font-family: 'Dancing Script', cursive;
+    font-size:30px;  
+}
+
+.containerTwo{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.block{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h5{
+    font-family: 'Dancing Script', cursive; 
+    font-size:15px;
+    color: #002B5B; 
+    font-weight:700px;
+}
+
+.days, .hours, .minutes, .seconds{
+    font-size:20px;
+    font-family: 'Dancing Script', cursive; 
+
+}
+
+.welcome{
+    font-size:60px;
+    color:#ED2B2A;
+}
